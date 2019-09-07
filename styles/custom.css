@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth
+}
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 0pt;
+    background-color:white;
+}
+a{
+    text-decoration: none;
+}
+h1 {
+    margin: 12.5px 0 12.5px 0;
+    font-size: 48px;
+    line-height: 60px;
+}
+h3{
+    color: white;
+    font-size: 26px;
+}
+p{
+    margin: 12.5px 0 12.5px 0;
+    line-height: 28pt;
+}
+nav {
+    background-color:rgba(246,135,255,1);
+    position: sticky;
+    z-index: 100;
+    padding: 10px 0 10px 120px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px 0 0;
+}
+nav ul a {
+    color: white;
+    font-weight: 700;
+    padding: 0 0 0 30px;
+}
+article{
+    width: 30%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    background-image: linear-gradient(180deg, rgba(246,135,255,1), rgba(59,158,255,1));
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 120px 120px 120px;
+}
+footer {
+    background-color: #af5ec2;
+}
+/* SPECIFIC TO SECTION */
+.youremail{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 600px;
+}
+.youremail input{
+    float: left;
+box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+padding: 18px 20px;
+border-radius: 20px;
+width: 60%;
+border: none;
+font-size: 20px;
+color: #cdcdcd;
+box-sizing: border-box;
+}
+.youremail button {
+    color: #ffffff;
+    background-color:#006b65;
+    padding: 18px 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    transition: 0.3s;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+.headertext {
+    width: 50%;
+    margin-right: 50px;
+    padding-top: 30px;
+}
+.heroimage {
+    width: 40vw;  
+    height: 40vw; 
+    padding-bottom: 150px;  
+}
+.topnav-right{
+    float: right
+}
+.benefitsparagraph{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.costumer-container {
+    margin-left : 8.3%;
+    display: flex;
+}
+.left-column{
+    width: 41.7vw;
+    background-image: url("../images/quote.png");
+    background-size: 63%;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    padding-left: 25px;
+}
+.right-column {
+    width: 60vw;
+    background-color: rgba(246,135,255,1);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10% 0px;
+}
+.right-column img{
+    width: 15%;
+    height: 15%;
+}
+.testimonial-container {
+    margin-left: -25%;
+    display: flex;
+}
+.testimonial-column{
+width: 420px;
+height: 330px;
+background-color: #006b65;
+border-radius: 20px;
+box-shadow: 12px 12px 40px 0 rgba(0, 0, 0, 0.466);
+margin-right: 60px;
+padding: 80px 50px;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-between;
+}
+.testimonial-column p:last-of-type{
+    margin-top: auto;
+}
+.testimonial-column:last-of-type {
+    background-color: #5dbab2;
+    color: white;
+}
+.topnav-right{
+    font-size: 16px;
+}
+.sectionprenium{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+/* .row  div {
+    display: block
+} */
+.row div h2 {
+    color: #af5ec2;
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: opx;
+    margin-block-end: px
+}
+.row div h3 {
+    color: #5dbab2;
+    font-size: 34px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.row div p {
+    color: #65381c;
+    line-height: 2;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.row div button {
+    color: #ffffff;
+    background-color:#006b65;
+    padding: 18px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    transition: 0.3s;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin: 0em;
+}
+
+.row div button:hover {
+    background-color: #702284;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 50px 0 50px 0;
+}
+.footer p{
+    margin-bottom: 40px;
+}
+.footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.footer ul a {
+    color: white;
+    font-weight: 700;
+    padding: 0 20px 0 20px;
+}
+/* SPECIFIC TO ID */
+#benefitsection{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: -7% 120px 0 120px;
+    border-radius: 20px;
+    box-shadow: 0 10px 34px 0
+     rgba(210, 210, 210, 0.5);
+}
+#benefitsection img{
+    height: 10vw;
+    margin: 50px 80px 50px 8px;
+}
+#pricingsection {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 8.3%;
+    box-sizing: border-box;
+}
+
+.background-circle {
+    background-color: rgb(175, 94, 194);
+    /* padding: 10vw; */
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 223px;
+    margin-bottom: 200px;
+}
+
+.pricing-text {
+    width: 40%;
+    text-align: right;
+    margin-top: 220px;
+    margin-bottom: 200px;
+}
+
+#pricingsection img{
+    width: 20vw;
+    margin: 10vw;
+}
+
+#subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 0;
+}
+
+#subscribe h2 {
+    color: #af5ec2;
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+#subscribe h3 {
+    color: #5dbab2
+}
+#testimonialsection h2{
+    color: #702284;
+    margin-top: 30px;
+}
+
+
+@media only screen and (max-width: 550px){
+header {
+    display: flex;
+    flex-direction: column;
+}
+.headertext{
+    order: 2;
+    width: 100%;
+    margin-right: 0px;
+    padding-top: 30px;  
+}
+.headertext h1{
+    margin: 12.5px 0 12.5px 0;
+    font-size: 42px;
+    line-height: 60px;
+}
+.heroimage {
+    order: 1;
+    width: 80vw;
+    height: 80vw;
+    padding-bottom: 50px;   
+}
