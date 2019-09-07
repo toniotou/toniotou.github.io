@@ -180,9 +180,6 @@ justify-content: space-between;
     justify-content: space-between;
     flex-direction: column;
 }
-/* .row  div {
-    display: block
-} */
 .row div h2 {
     color: #af5ec2;
     font-size: 48px;
