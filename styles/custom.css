@@ -384,12 +384,12 @@ width: 100vw;
 }
 .youremail input {
     margin-top: 20px;
-    width: 87%;
+    width: 87vw;
 }
 .youremail button {
     padding: 18px 0px;
     margin: 20px 0 100px 0;
-    width: 40%;
+    width: 40vw;
 }
 #benefitsection {
 display: flex;
